@@ -4,7 +4,7 @@ import java.util.ArrayList;
 public class Main {
 private static int i = 0;
     private static ArrayList<Integer> fibo = new ArrayList<Integer>();
-    public static void main(String[] args) {
+    private static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         try {
             System.out.println("What integer would you like to check?");
